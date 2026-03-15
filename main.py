@@ -9,8 +9,8 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:8080",
         "ws://localhost:8000",
-        "https://api.mrdegbe.com:8080",
-        "wss://api.mrdegbe.com:8080",
+        "https://api.mrdegbe.com",
+        "wss://api.mrdegbe.com",
     ],  # frontend URL
     allow_credentials=True,
     allow_methods=["*"],
