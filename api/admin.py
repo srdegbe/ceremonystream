@@ -5,10 +5,11 @@ from schemas.admin import StageUpdateRequest
 
 router = APIRouter()
 
+
 @router.post("/ceremony/{slug}/stage")
 async def update_stage(slug: str, request: StageUpdateRequest):
     stage = request.stage
-    
+
     # Validate ceremony slug
     if slug != dummy_ceremony["slug"]:
         raise HTTPException(status_code=404, detail="Ceremony not found")

@@ -19,6 +19,7 @@ dummy_ceremony = {
     "current_stage": "Opening Prayer",
 }
 
+
 @router.get("/ceremony/{slug}", response_model=CeremonyResponse)
 def get_ceremony(slug: str):
     if slug == dummy_ceremony["slug"]:

@@ -13,9 +13,9 @@ class Ceremony(BaseModel):
 
 # Example stages we will use:
 
-    # Opening Prayer
-    # Family Introduction
-    # Knocking
-    # Drinks Presentation
-    # Acceptance
-    # Blessings
+# Opening Prayer
+# Family Introduction
+# Knocking
+# Drinks Presentation
+# Acceptance
+# Blessings
