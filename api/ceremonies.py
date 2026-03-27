@@ -7,7 +7,7 @@ dummy_ceremony = {
     "slug": "ella-michael",
     "couple_names": "Ella ❤️ Michael",
     "date": "2026-03-28",
-    "livestream_url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "livestream_url": "https://www.youtube.com/watch?v=c9Z4oN8DSQ8",
     "stages": [
         "Opening Prayer",
         "Family Introduction",
