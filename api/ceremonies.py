@@ -10,8 +10,10 @@ dummy_ceremony = {
     "livestream_url": "https://www.youtube.com/watch?v=c9Z4oN8DSQ8",
     "stages": [
         "Opening Prayer",
-        "Family Introduction",
+        "Greetings by groom's family",
+        "Welcome by bride's family",
         "Knocking",
+        "Family Introduction",
         "Drinks Presentation",
         "Acceptance",
         "Blessings",
