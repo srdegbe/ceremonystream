@@ -8,7 +8,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:8080",
-        "https://ceremonystream.vercel.app"
+        "https://ceremonystream.vercel.app",
         "https://engage.mrdegbe.com"
     ],  # frontend URL
     allow_credentials=True,
