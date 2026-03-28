@@ -9,6 +9,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:8080",
         "https://ceremonystream.vercel.app"
+        "https://enagage.mrdegbe.com"
     ],  # frontend URL
     allow_credentials=True,
     allow_methods=["*"],
